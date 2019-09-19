@@ -20,7 +20,7 @@ class Dog
     @@all.clear
   end
   
-  def print_all
+  def self.print_all
     self.all.each{|dog| puts "#{dog.name}"}
   end
   
