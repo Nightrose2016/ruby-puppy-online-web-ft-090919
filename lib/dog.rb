@@ -11,7 +11,13 @@ class Dog
     @@all.each { |dog| puts dog.name }
   end
   
+  def save
+    @@all << self
+  end
+  
   def self.clear_all
     
   end
+  
+  def
 end
